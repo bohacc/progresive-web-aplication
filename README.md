@@ -16,6 +16,11 @@
   }
 }
 
+##TODO:
+- vyřešit ruční definice routování pro ngsw-manifest pro aktivaci cache na routě
+- vyřešit update aplikace(web workeru) po vydání nové verze
+- umístit na server pod https
+
 
 # MyMobile
 
