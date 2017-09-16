@@ -1,0 +1,13 @@
+{
+  "routing": {
+    "index": "/index.html",
+    "routes": {
+      "/": {
+        "prefix": false
+      },
+      "/user-profile": {
+        "prefix": false
+      }
+    }
+  }
+}
