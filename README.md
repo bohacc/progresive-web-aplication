@@ -22,6 +22,13 @@
 - umístit na server pod https
 - zjistit jak funguje kešování zdrojů(obrázky, styly a pod.)
 
+Sources:
+https://docs.google.com/document/d/19S5ozevWighny788nI99worpcIMDnwWVmaJDGf_RoDY/edit#
+https://github.com/angular/mobile-toolkit/tree/master/hello-mobile/src
+https://mobile.angular.io
+https://developer.okta.com/blog/2017/05/09/progressive-web-applications-with-angular-and-spring-boot
+http://slides.com/webmax/pwa-ng-conf
+https://gist.github.com/alxhub/a674814b461e82d5e006168da5069015
 
 
 # MyMobile
