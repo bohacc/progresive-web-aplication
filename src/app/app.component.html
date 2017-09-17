@@ -1,5 +1,8 @@
 <md-toolbar color="primary">
   <span>{{title$ | async}}</span>
+  <span class="right">
+    <a href="javascript:void(0);" (click)="checkForUpdate()">update</a>
+  </span>
 </md-toolbar>
 
 <md-progress-spinner mode="indeterminate" *shellRender></md-progress-spinner>

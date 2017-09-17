@@ -16,6 +16,7 @@ import { HomeComponent } from './components/home/home.component';
 import { PreloadAllModules, RouterModule } from '@angular/router';
 import { ROUTES } from './app.routes';
 import { AppService } from './app.service';
+import { ServiceWorkerModule } from '@angular/service-worker';
 
 @NgModule({
   declarations: [
@@ -26,6 +27,7 @@ import { AppService } from './app.service';
   imports: [
     BrowserModule,
     AppShellModule.runtime(),
+    ServiceWorkerModule,
     RouterModule.forRoot(
       ROUTES,
       {

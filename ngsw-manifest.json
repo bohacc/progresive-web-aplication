@@ -6,8 +6,13 @@
         "prefix": false
       },
       "/user-profile": {
-        "prefix": false
+        "prefix": true
       }
     }
-  }
+  },
+  "push": {
+    "showNotifications": true,
+    "backgroundOnly": true
+  },
+  "version": "2"
 }
