@@ -9,7 +9,7 @@ import { NgServiceWorker } from '@angular/service-worker';
   selector: 'app-root',
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css'],
-  /*changeDetection: ChangeDetectionStrategy.OnPush*/
+  changeDetection: ChangeDetectionStrategy.OnPush
 })
 export class AppComponent implements OnInit {
   public title$: BehaviorSubject<string>;
@@ -49,11 +49,11 @@ export class AppComponent implements OnInit {
     });
   }
 
-  public checkForUpdate() {
+  /*public checkForUpdate() {
     this.sw.checkForUpdate().subscribe((e) => {
       console.log(e);
     });
-  }
+  }*/
 
   private registerTitle() {
     this.title$ = this.appService.getTitle();
@@ -63,7 +63,7 @@ export class AppComponent implements OnInit {
     this.titleService.setTitle(APP_TITLE);
   }
 
-  private listenNotification() {
+  /*private listenNotification() {
     this.sw.push.subscribe(notificationPayload => {
       // Process notification data
       console.log(notificationPayload);
@@ -75,5 +75,5 @@ export class AppComponent implements OnInit {
       // Send subscription data to the server
       console.log(subscriptionObject);
     });
-  }
+  }*/
 }
